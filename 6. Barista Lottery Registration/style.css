@@ -7,12 +7,18 @@ body{
 }
 
 .header{
+  border-bottom: 3px dashed rgba(161, 158, 155, 0.991);
   background-color: hsl(18, 14%, 15%);
   border-top-left-radius:5px;
   border-top-right-radius:5px;
   margin-top: -18px;
   margin-bottom: 10px;
   text-indent: 10px;
+}
+
+.header h2{
+  margin-top: -18px;
+  text-indent: 12px;
 }
 
 .download-container{
@@ -32,10 +38,22 @@ hr.style1{
   border-bottom: 1px solid  hsl(18, 14%, 15%);
   }
 
+.blue-column{
+  height: 22px;
+  float: right;
+  background-color: royalblue;
+  transform: translate(-417px, 224px);
+}
+
+.blue-column p{
+  margin: 2px;
+  color: azure;
+}
+
 .form{
   background: rgba(161, 158, 155, 0.991);
   float: right;
-  transform: translate(-3%, 0%);
+  transform: translate(14%, 0%);
   height: 400px;
 }
 

@@ -126,6 +126,7 @@ h1.heading2{
 
 h3{
     color: purple;
+    margin-bottom: 5px;
 }
 
 .box-1 a, .box-2 a{

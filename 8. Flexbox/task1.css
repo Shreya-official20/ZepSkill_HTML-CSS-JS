@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes{
+    height: 90%;
+    width: 90%;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-1{
+    height: 25%;
+    width: 25%;
+    display: flex;
+    background-color: teal;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-2{
+    height: 25%;
+    width: 25%;
+    display: flex;
+    background-color: lavender;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-3{
+    height: 25%;
+    width: 25%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

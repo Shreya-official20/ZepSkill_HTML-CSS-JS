@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex{
+  width:95%;
+  height:95%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ }
+
+.slider {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 4%;
+  position: relative;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+  height: 400px;
+  scroll-snap-align: center;
+  margin-right: 0px;
+  box-sizing: border-box;
+  background: white;
+  transform-origin: center center;
+  transform: scale(1);
+}
+
+.slide__img img{
+  width: 99%;
+}
+
+.slide a {
+  background: none;
+  border: none;
+}
+
+a.slide__prev,
+.slider::before {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  left: 2%;
+  opacity: 0.2;
+}
+
+a.slide__next,
+.slider::after {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  right: 2%;
+  opacity: 0.2;
+}
+
+.slider::before,
+.slider::after,
+.slide__prev,
+.slide__next {
+  position: absolute;
+  top: 48%;
+  width: 35px;
+  height: 35px;
+  border: solid grey;
+  border-width: 0 4px 4px 0;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.slider::before,
+.slider::after {
+  content: "";
+  z-index: 1;
+  background: none;
+  pointer-events: none;
+}
+
+.text{
+  width: 26%;
+  height: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-65px, 2px);
+  color: grey;
+  border: 2px solid rgba(218, 165, 32, 0.1);
+}
+.content{
+  width: 96%;
+}
+.content h5{
+  position: relative;
+  transform: translate(18px, 100px);
+  z-index: 1;
+}
+.content img{
+  width: 70%;
+  transform: translate(44px, 33px);
+}
+.content h1{
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: rgb(191, 28, 28);;
+  position: relative;
+  transform: translate(18px, -54px);
+  z-index: 1;
+}
+.content span{
+  margin-left: 12%;
+}
+.content h4{
+  transform: translate(18px, -28px);
+  font-size: 22px;
+  opacity: 0.8;
+}
+.content p{
+  opacity: 0.8;
+  transform: translate(18px, -14px);
+}

@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background: url(Images/images.jpeg) no-repeat;
+}
+
+.img{
+    width: 85%;
+    height: 80%;
+    margin-left: 5%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: url(Images/welcome-img.webp) no-repeat;
+}
+
+.form{
+    width: 46%;
+    height: 80%;
+    margin-right: 5%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-head{
+    transform: translate(4px, -16px);
+}
+
+.btn2 {
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: bisque;
+    border: none;
+    
+  }
+
+.btn1{
+    color: black;  /* fallback for old browsers */
+    border: none;
+    background: transparent;
+  }
+
+.btn1, .btn2 {
+    width: 45%;
+    height: 35px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.form-body p{
+    margin-bottom: 8%;
+    font-size: x-small;
+}
+.form-body{
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-body h1{
+    color: black;   
+}
+
+hr{
+    margin-top: 8%;
+}
+
+input[type=file]{
+    margin-top: 4%;
+    color: black;
+}

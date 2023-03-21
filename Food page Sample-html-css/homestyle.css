@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-image: url("Images/bg.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.image{
+    height: 100%;
+    width: 40%;
+}
+.para{
+    height: 95%;
+    width: 60%;
+}
+
+.container-heading{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 50%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.container-body{
+    height: 81%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+
+}
+.container-body-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 50%;
+    height: 8%;
+    padding-top: 1%;
+}
+h1{
+    font-family: sans-serif;
+    width: 59%;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    }
+
+.btn1 {
+    color: darkorange;  /* fallback for old browsers */
+    border: solid;
+    background: transparent;
+  }
+
+.btn2 {
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: bisque;
+    border: none;
+  }
+
+.btn1, .btn2 {
+  width: 45%;
+  height: 45px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  }
+
+.btn3 {
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: bisque;
+    border: none;
+  }
+
+.btn4 {
+    color: darkorange;  /* fallback for old browsers */
+    background: transparent;
+    border: solid;
+  }
+
+.btn3, .btn4 {
+    width: 36%;
+    height: 45px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+h3{
+    font-family: sans-serif;
+    margin: 4% 210px;
+    font-size: large;
+    transform: translate(-203px, 2px);
+    display: flex;
+    flex-direction: row;
+    color: #8f7878;
+  }
+h3:before, h3:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid;
+    margin: auto;
+  }
+h3:before {
+    margin-right: 10px
+  }
+h3:after{
+    margin-left: 10px
+}
